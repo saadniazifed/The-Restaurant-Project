@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adding a background image */
+body {
+  background-image: url(./icon.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Making the image fit the browser window */
+body > img {
+  width: 100%;
+  max-height: 100vh;
+}
+
+/* Styling the buttons */
+.buttonStyling {
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Skia";
+  cursor: pointer;
+}
+
+/* Adding Hover functionality to the buttons */
+.buttonStyling:hover {
+  margin-top: 2.5px;
+}
+
+/* Creating Styling for the Home Module */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid blue;
+  background-color: tomato;
+  height: 100vh;
+}
+
+/* Top header div */
+.headerTop {
+  width: 100vw;
+  background-color: royalblue;
+  border: 3px solid royalblue;
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+  align-items: center;
+}
+
+/* Header Text for the title */
+.headerText {
+  padding: 5px;
+  font-size: 2.5rem;
+  font-family: "Skia";
+  color: white;
+}
+
+/* Styling the button wrapper containing the buttons */
+.buttonWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.headerBottom {
+  width: 100vw;
+  height: 250px;
+  background-color: slateblue;
+  border: 3px solid navajowhite;
+}
