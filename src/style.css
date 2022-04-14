@@ -39,9 +39,11 @@ body > img {
 /* Header Text for the title */
 .headerText {
   padding: 5px;
-  font-size: 2.5rem;
-  font-family: "Skia";
+  font-size: 3rem;
+  font-family: "Road Rage";
   color: white;
+  word-spacing: 15px;
+  letter-spacing: 5px;
 }
 
 /* Styling the button wrapper containing the buttons */
@@ -61,7 +63,7 @@ body > img {
 .buttonStyling {
   padding: 10px;
   font-weight: bold;
-  font-family: "Skia";
+  font-family: "Road Rage";
   cursor: pointer;
 }
 
@@ -70,12 +72,16 @@ body > img {
   margin-top: 2.5px;
 }
 
-/* Styling the tag line text on the homepage */
-.taglineText,
+/* Styling the menu text on the homepage */
 .menuTitle {
   font-size: 2.5rem;
   color: white;
   font-family: "Skia";
+}
+.taglineText {
+  font-size: 3.5rem;
+  color: white;
+  font-family: "Cream Peach";
 }
 
 /* Adding Menu Tab CSS */
@@ -84,10 +90,12 @@ body > img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 75%;
-  background-color: firebrick;
-  border: 3px solid tomato;
+  width: 55%;
+  border: 3px solid #f5ebdf;
+  background-color: #f5ebdf;
   gap: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Container Menu Class */
@@ -107,35 +115,61 @@ body > img {
   flex-direction: column;
 }
 
-.menuSubDiv {
+.menuSubDiv,
+.menuSubDivTwo,
+.menuSubDivThree {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
-  border: 2px solid tomato;
   width: 40vw;
   height: 300px;
-  gap: 5px;
+  gap: 15px;
+  border: 2px solid #452d23;
+  border-radius: 10px;
+  /* color: white; */
 }
 
 .foodItemDiv {
+  gap: 10px;
+  text-align: justify;
+  padding: 0px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: firebrick;
-  border: 2px solid skyblue;
   width: 20vw;
-  /* height: 150px; */
+  flex-direction: column;
 }
 
-.foodImageDiv {
+.foodImageDiv,
+.foodImageDivTwo,
+.foodImageDivThree {
   float: left;
-  background-color: firebrick;
-  border: 2px solid skyblue;
   width: 20vw;
-  height: 150px;
+  height: 193px;
 }
 
 .foodImageDiv > img {
-  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.price {
+  align-self: end;
+}
+
+.foodItemTexts {
+  font-family: "Lora";
+  color: black;
+  font-size: 0.8rem;
+}
+
+.foodItemHeading {
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Road Rage";
+}
+
+.menuTitle {
+  color: black;
+  font-family: "Road Rage";
 }

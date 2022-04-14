@@ -1,18 +1,29 @@
-import createElement from "./createHTMLElements";
 import {
   menuDiv,
   menuTitle,
   subMenuDiv,
-  foodItemDiv,
+  foodItemOne,
   foodImageDiv,
+  subMenuDivTwo,
+  foodItemTwo,
+  foodImageDivTwo,
+  subMenuDivThree,
+  foodItemThree,
+  foodImageDivThree,
 } from "./menuStructure";
 
 const menuPage = () => {
   menuDiv();
   menuTitle();
   subMenuDiv();
-  foodItemDiv();
+  foodItemOne();
   foodImageDiv();
+  subMenuDivTwo();
+  foodItemTwo();
+  foodImageDivTwo();
+  subMenuDivThree();
+  foodItemThree();
+  foodImageDivThree();
 };
 
 export default menuPage;

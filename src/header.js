@@ -16,7 +16,7 @@ const headerTop = () => {
 
   //Creating the title for the header
   const headerText = createElement("h1", ["headerText"], {});
-  headerText.textContent = "Steakhouse de Saad";
+  headerText.textContent = "Steak-house de Saad";
   headerTop.appendChild(headerText);
   container.appendChild(headerTop);
   content.appendChild(container);

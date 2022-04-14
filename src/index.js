@@ -12,7 +12,6 @@ homePage();
 homeBtn.addEventListener("click", () => {
   content.innerHTML = "";
   container.innerHTML = "";
-  console.log(1);
   homePage();
 });
 
