@@ -2,10 +2,12 @@ import { menuBtn, homeBtn, contactBtn } from "./createButtons";
 import createElement from "./createHTMLElements";
 const content = document.querySelector("#content");
 
+const container = createElement("div", ["container"], {});
+content.appendChild(container);
+
 const headerTop = () => {
   //Main Container Div
-  const container = createElement("div", ["container"], {});
-  content.appendChild(container);
+  container;
 
   //Div for the Heading Text and Buttons
   const headerTop = createElement("div", ["headerTop"], {});
