@@ -23,7 +23,7 @@ body > img {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Top header div */
@@ -71,8 +71,71 @@ body > img {
 }
 
 /* Styling the tag line text on the homepage */
-.taglineText {
+.taglineText,
+.menuTitle {
   font-size: 2.5rem;
   color: white;
   font-family: "Skia";
+}
+
+/* Adding Menu Tab CSS */
+.menuDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  background-color: firebrick;
+  border: 3px solid tomato;
+  gap: 10px;
+}
+
+/* Container Menu Class */
+.containerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Content Menu Class */
+.contentMenu {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menuSubDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border: 2px solid tomato;
+  width: 40vw;
+  height: 300px;
+  gap: 5px;
+}
+
+.foodItemDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: firebrick;
+  border: 2px solid skyblue;
+  width: 20vw;
+  /* height: 150px; */
+}
+
+.foodImageDiv {
+  float: left;
+  background-color: firebrick;
+  border: 2px solid skyblue;
+  width: 20vw;
+  height: 150px;
+}
+
+.foodImageDiv > img {
+  display: block;
 }
