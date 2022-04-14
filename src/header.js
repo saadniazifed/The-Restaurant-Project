@@ -6,9 +6,6 @@ const container = createElement("div", ["container"], {});
 content.appendChild(container);
 
 const headerTop = () => {
-  //Main Container Div
-  container;
-
   //Div for the Heading Text and Buttons
   const headerTop = createElement("div", ["headerTop"], {});
   container.appendChild(headerTop);

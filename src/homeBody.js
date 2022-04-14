@@ -7,11 +7,13 @@ const headerBottom = () => {
 
   //Header bottom div being created in the Home page
   const headerBottom = createElement("div", ["headerBottom"], {});
+  const taglineTextDiv = createElement("div", ["taglineTextDiv"], {});
 
   const taglineText = createElement("h1", ["taglineText"], {});
   taglineText.textContent = "The Only Thing We Love More Than Food, is YOU!";
 
-  headerBottom.appendChild(taglineText);
+  taglineTextDiv.appendChild(taglineText);
+  headerBottom.appendChild(taglineTextDiv);
   container.appendChild(headerBottom);
   content.appendChild(container);
 

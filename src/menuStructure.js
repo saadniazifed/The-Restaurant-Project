@@ -12,10 +12,6 @@ const container = document.querySelector(".container");
 content.classList.add("contentMenu");
 
 const menuDiv = () => {
-  // Removing Container Class and Adding a new one for the menu.
-  container.classList.remove("container");
-  container.classList.add("containerMenu");
-
   //Creating the Menu diV
   const menuDiv = createElement("div", ["menuDiv"], {});
   container.appendChild(menuDiv);
