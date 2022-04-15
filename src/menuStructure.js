@@ -7,8 +7,7 @@ import RibeyeSteak from "./ribeye.jpg";
 const content = document.querySelector("#content");
 const container = document.querySelector(".container");
 
-//Removing the Class and Adding it for the Menu Tab
-
+//Removing or Adding the Class
 content.classList.add("contentMenu");
 
 const menuDiv = () => {
