@@ -128,20 +128,23 @@ body > img {
 .menuSubDiv,
 .menuSubDivTwo,
 .menuSubDivThree,
-.subContactDiv {
+.subContactDiv,
+.subContactDivTwo,
+.subContactDivThree {
   display: flex;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   width: 40vw;
-  height: 300px;
   gap: 15px;
+  padding: 0.8rem;
   border: 2px solid #452d23;
   border-radius: 10px;
-  /* color: white; */
 }
 
 .foodItemDiv,
-.contactOneItem {
+.contactOneItem,
+.contactItemTwo,
+.contactItemThree {
   gap: 10px;
   text-align: justify;
   padding: 0px 5px;
@@ -167,8 +170,8 @@ body > img {
 }
 
 .contactImageDiv > img {
-  height: auto;
   width: 100%;
+  height: auto;
 }
 
 .price {

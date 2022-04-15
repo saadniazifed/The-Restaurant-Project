@@ -3,6 +3,12 @@ import {
   subContactDiv,
   contactItemOne,
   contactImageDiv,
+  subContactDivTwo,
+  contactItemTwo,
+  contactImageDivTwo,
+  subContactDivThree,
+  contactItemThree,
+  contactImageDivThree,
 } from "./contactPageStructure";
 
 const contactUs = () => {
@@ -10,6 +16,12 @@ const contactUs = () => {
   subContactDiv();
   contactItemOne();
   contactImageDiv();
+  subContactDivTwo();
+  contactItemTwo();
+  contactImageDivTwo();
+  subContactDivThree();
+  contactItemThree();
+  contactImageDivThree();
 };
 
 export { contactUs };
