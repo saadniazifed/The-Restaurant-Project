@@ -2,6 +2,14 @@
   font-family: "MyFont";
   src: url("./Road_Rage.woff") format("woff");
   font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "MyFontTwo";
+  src: url("./Cream-Peach.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
 }
 
 * {
@@ -105,7 +113,7 @@ body > img {
 .taglineText {
   font-size: 3.5rem;
   color: white;
-  font-family: "Cream Peach";
+  font-family: "MyFontTwo";
 }
 
 /* Adding Menu Tab CSS */
