@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./Road_Rage.woff") format("woff");
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,7 +55,7 @@ body > img {
 .headerText {
   padding: 5px;
   font-size: 3rem;
-  font-family: "Road Rage";
+  font-family: "MyFont";
   color: white;
   word-spacing: 15px;
   letter-spacing: 5px;
@@ -74,7 +80,7 @@ body > img {
   padding: 15px;
   width: 150px;
   font-weight: bold;
-  font-family: "Road Rage";
+  font-family: "MyFont";
   font-size: 1rem;
   cursor: pointer;
   border-radius: 8px;
@@ -189,13 +195,13 @@ body > img {
 .contactItemHeading {
   font-size: 1.3rem;
   color: black;
-  font-family: "Road Rage";
+  font-family: "MyFont";
 }
 
 .menuTitle,
 .contactTitle {
   color: black;
-  font-family: "Road Rage";
+  font-family: "MyFont";
 }
 
 /* Contact Us Module */

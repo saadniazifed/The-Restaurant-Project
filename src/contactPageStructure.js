@@ -192,7 +192,7 @@ const contactItemThree = () => {
   phone.textContent = "+123-456-789";
 
   const email = createElement("h3", ["contactItemTexts"], {});
-  email.textContent = "fakeEmail@email.com";
+  email.textContent = "fakeEmail@email25.com";
 
   //Appending Children
   contactItemThree.appendChild(h3);
