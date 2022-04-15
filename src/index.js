@@ -1,3 +1,4 @@
+import { contactUs } from "./contactUs";
 import { homeBtn, menuBtn, contactBtn } from "./createButtons";
 import headerTop from "./header";
 import homePage from "./home";
@@ -20,4 +21,11 @@ menuBtn.addEventListener("click", () => {
   container.innerHTML = "";
   headerTop();
   menuPage();
+});
+
+contactBtn.addEventListener("click", () => {
+  content.innerHTML = "";
+  container.innerHTML = "";
+  headerTop();
+  contactUs();
 });

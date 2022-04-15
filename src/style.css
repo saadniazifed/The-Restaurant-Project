@@ -61,6 +61,7 @@ body > img {
   gap: 10px;
 }
 
+/* Creating the Header Bottom Div */
 .headerBottom {
   display: flex;
   justify-content: center;
@@ -70,15 +71,22 @@ body > img {
 
 /* Styling the buttons */
 .buttonStyling {
-  padding: 10px;
+  padding: 15px;
+  width: 150px;
   font-weight: bold;
   font-family: "Road Rage";
+  font-size: 1rem;
   cursor: pointer;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* Adding Hover functionality to the buttons */
 .buttonStyling:hover {
-  margin-top: 2.5px;
+  background-color: crimson;
+  color: white;
 }
 
 /* Styling the menu text on the homepage */
@@ -119,7 +127,8 @@ body > img {
 
 .menuSubDiv,
 .menuSubDivTwo,
-.menuSubDivThree {
+.menuSubDivThree,
+.subContactDiv {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +140,8 @@ body > img {
   /* color: white; */
 }
 
-.foodItemDiv {
+.foodItemDiv,
+.contactOneItem {
   gap: 10px;
   text-align: justify;
   padding: 0px 5px;
@@ -144,7 +154,8 @@ body > img {
 
 .foodImageDiv,
 .foodImageDivTwo,
-.foodImageDivThree {
+.foodImageDivThree,
+.contactImageDiv {
   float: left;
   width: 20vw;
   height: 193px;
@@ -155,23 +166,46 @@ body > img {
   width: 100%;
 }
 
+.contactImageDiv > img {
+  height: auto;
+  width: 100%;
+}
+
 .price {
   align-self: end;
 }
 
-.foodItemTexts {
+.foodItemTexts,
+.contactItemTexts {
   font-family: "Lora";
   color: black;
   font-size: 0.8rem;
 }
 
-.foodItemHeading {
+.foodItemHeading,
+.contactItemHeading {
   font-size: 1.3rem;
   color: black;
   font-family: "Road Rage";
 }
 
-.menuTitle {
+.menuTitle,
+.contactTitle {
   color: black;
   font-family: "Road Rage";
+}
+
+/* Contact Us Module */
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55%;
+  border: 3px solid #f5ebdf;
+  background-color: #f5ebdf;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* min-height: 100vh; */
 }
