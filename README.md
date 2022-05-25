@@ -38,7 +38,7 @@ None that I can find. Project is completed as it is.
 None. Everything was fixed before deployment.
 
 ## Reflections
-Learning about ES6 Modules and Webpack was intimidating at first, but after applying the knowledge, concepts and probelm solving techniques on this project, I had the necessary practice I needed to use ES6 Modules and Webpack on a daily basis. This project was used as a practic to learn how Modules and Webpack works. 
+Learning about ES6 Modules and Webpack was intimidating at first, but after applying the knowledge, concepts and problem solving techniques on this project, I had the necessary practice I needed to use ES6 Modules and Webpack on a daily basis. This project was used as a practice to learn how Modules and Webpack works. 
 
 ## Contact
 LinkedIn: <a href="https://www.linkedin.com/in/saadniazifed"> SaadUllah Khan Niazi</a>
